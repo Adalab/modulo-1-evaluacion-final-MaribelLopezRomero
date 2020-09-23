@@ -1,32 +1,81 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
 
-  <body>
-    <div class="page">
-      <include src="./partials/header.html" title="Bienvenidos a Adalab"></include>
-      <include src="./partials/main.html"></include>
-      <include
-        src="./partials/link.html"
-        aClass="link__adalab"
-        text="Adalab"
-        url="https://adalab.es"
-      ></include>
-      <include
-        src="./partials/link.html"
-        aClass="link__github"
-        text="GitHub"
-        url="https://github.com"
-      ></include>
-      <include src="./partials/footer.html"></include>
-    </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adalab Web Starter Kit</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <!-- <link rel="icon" href="./assets/images/favicon.png" /> -->
+  <link rel="stylesheet" ng-href="./assets/images/cover.jpg">
+  <link rel="stylesheet" ng-href="./assets/images/ico-arrow.svg">
+  <link rel="stylesheet" ng-href="./assets/images/ico-menu.svg">
+  <link rel="stylesheet" ng-href="./assets/images/ico-scroll-down.svg">
+</head>
+
+<body>
+  <header class="header">
+    <a href="https://adalab.es/" title="Pagina de Adalab" alt="Pagina de Adalab"><img src="./assets/images/ico-menu.svg"
+        alt="Ir a la pagina de Adalab" title="Ir a la pagina de Adalab"></a>
+    <h1>Anonymous proxy</h1>
+    <p>In hac habitasse platea dictumst.</p>
+    <button><img src="./assets/images/ico-scroll-down.svg" alt="Ir a 3 Reasons To Purchase"
+        title="3 Reasons To Purchase"></button>
+  </header>
+  <main>
+    <section>
+      <small>Insomnia tips</small>
+      <h2>Looking through a window</h2>
+      <p>Donec accumsan, nulla ut volupat orttior, quam odio tempus felis, al luctus ex diam nec lectus. Vivamus semper
+        sodales rutrum. </p>
+      <button>Go</button>
+    </section>
+    <section>
+      <h2>3 reasons to purchase</h2>
+      <article>
+        <div>
+          <h3>Ut sed metus</h3>
+          <p> Lorem ipsum dolor sit amet</p>
+        </div>
+        <div>
+          <h3>Curabitur ac erat</h3>
+          <p> Mauris mattis urna quis lorem molestie</p>
+        </div>
+        <div>
+          <h3>Morbi dictum</h3>
+          <p> Aliquam in dolor et dolor tincidunt</p>
+        </div>
+      </article>
+      <button>More reason</button>
+    </section>
+    <footer>
+      <button><img src="./assets/images/ico-arrow.svg" alt="Ir al inicio de la pagina"
+          title="Ir al incicio de la pagina"></button>
+      <nav>
+        <ul>
+          <li><a href="https://adalab.es/" title="ir a la pagina de Adalab" alt="Pagina de Adalab">Articles</a></li>
+          <li><a href="https://adalab.es/" title="Ir a la pagina de Adalab" alt="Pagina de Adalab">Books</a></li>
+          <li><a href="https://adalab.es/" title="Ir a la pagina de Adalab" alt="Pagina de Adalab">Events</a></li>
+          <li><a href="https://adalab.es/" title="Ir a la pagina de Adalab" alt="Pagina de Adalab">Reasons</a></li>
+          <li><a href="https://adalab.es/" title="Ir a la pagina de Adalab" alt="Pagina de Adalab">Tips</a></li>
+
+        </ul>
+      </nav>
+      <nav>
+        <ul>
+          <li><a href="https://adalab.es/" title="ir a la pagina de Adalab" alt="Pagina de Adalab">Twitter</a></li>
+          <li><a href="https://adalab.es/" title="Ir a la pagina de Adalab" alt="Pagina de Adalab">Instagram</a></li>
+          <li><a href="https://adalab.es/" title="Ir a la pagina de Adalab" alt="Pagina de Adalab">Mastodon.social</a>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <span>2017</span>
+        <span>we &#128147; components </span>
+      </div>
+    </footer>
+  </main>
+</body>
+
 </html>
