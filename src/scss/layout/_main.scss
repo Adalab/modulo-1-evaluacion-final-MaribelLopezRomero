@@ -1,0 +1,31 @@
+.main__section-one {
+  background: $color-main-section-one;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.main__section-two {
+  background: $color-main-section-two;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__section-two__list {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 3;
+}
+.main__section-two__list-1 {
+  grid-column: 1;
+  grid-row: 1/2;
+}
+.main__section-two__list-2 {
+  grid-column: 1;
+  grid-row: 2/3;
+}
+.main__section-two__list-3 {
+  grid-column: 1;
+  grid-row: 3/4;
+}
