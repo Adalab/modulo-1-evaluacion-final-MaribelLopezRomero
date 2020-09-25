@@ -39,7 +39,7 @@
 }
 .main__section-one__small {
   color: #8ccbea;
-  size: 14px;
+  font-size: 14px;
   font-family: 'Roboto', sans-serif;
   line-height: 2.14;
   text-transform: capitalize;
@@ -49,11 +49,21 @@
   margin-bottom: 0px;
   margin-left: 4.687%;
   margin-right: 67.187;
+  @media all and (min-width: 768px) {
+    margin-left: 5.078%;
+    margin-right: 66.796%;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 16px;
+    width: 30%;
+    margin-left: 22.916%;
+    margin-right: 53.75%;
+  }
 }
 .main__section-one__title {
   color: $color-secundary;
   font-family: $font-family-title;
-  size: 16px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 1.25;
   text-transform: capitalize;
@@ -62,17 +72,43 @@
   margin-left: 4.687%;
   margin-right: 4.687%;
   margin-bottom: 15px;
+  @media all and (min-width: 768px) {
+    font-size: 26px;
+    width: 89.843%;
+    height: 45px;
+    margin-left: 5.078%;
+    margin-right: 5.078%;
+    margin-bottom: 30px;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 32px;
+    width: 60.83%;
+    margin-left: 22.916%;
+    margin-right: 22.916%;
+  }
 }
 .main__section-one__paragraph {
   color: $color-terciary;
   font-family: $font-family;
-  size: 18px;
+  font-size: 18px;
   line-height: 1.67;
   width: 90.625;
   height: 120px;
   margin-left: 4.687%;
   margin-right: 4.678%;
   margin-bottom: 30px;
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+    width: 89.843%;
+    height: 60px;
+    margin-left: 5.078%;
+    margin-right: 7.8125%;
+  }
+  @media all and (min-width: 1200px) {
+    width: 60.83%;
+    margin-left: 22.916%;
+    margin-right: 22.916%;
+  }
 }
 .main__section-one__button {
   background: white;
@@ -89,6 +125,24 @@
   margin-left: 4.687%;
   margin-right: 79.37%;
   margin-bottom: 45px;
+  @media all and (min-width: 768px) {
+    width: 91px;
+    height: 45px;
+    padding-left: 33.5px;
+    padding-right: 32.5px;
+    margin-left: 5.078%;
+    margin-right: 83.0729%;
+    margin-bottom: 60px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 160px;
+    height: 45px;
+    padding-left: 5.66%;
+    padding-right: 5.58%;
+    margin-left: 22.916%;
+    margin-right: 70.416%;
+    margin-bottom: 60px;
+  }
 }
 //estilos de las seccion 2
 .main__section-two {
