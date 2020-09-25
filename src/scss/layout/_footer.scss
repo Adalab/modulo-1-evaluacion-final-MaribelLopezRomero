@@ -1,7 +1,78 @@
 .footer {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 465px;
   background: $color-footer;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+.footer__buttom {
+  position: absolute;
+  bottom: 443px;
+  background: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 30px;
+  text-align: center;
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.footer__buttomimag {
+  width: 20.6px;
+  height: 24px;
+}
+
+.footer__menu__link {
+  color: $color-primary;
+  font-family: $font-family;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.footer__menu__list {
+  list-style: none;
+  size: 26px;
+  line-height: 1.88;
+  text-align: center;
+  width: 73px;
+  height: 150px;
+  margin-top: 60px;
+  margin-right: 38.43%;
+  margin-bottom: 30px;
+}
+.footer__menu__list2 {
+  list-style: none;
+  size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  width: 147px;
+  height: 90px;
+  margin-right: 26.875%;
+  margin-bottom: 30px;
+}
+.footer__small {
+  color: $color-primary;
+  font-family: $font-family;
+  size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__small__copyright {
+  text-align: center;
+  justify-self: center;
+  width: 77px;
+  height: 30px;
+}
+.footer__small__components {
+  text-align: center;
+  justify-self: center;
+  width: 290px;
+  height: 30px;
+  margin-bottom: 45px;
 }

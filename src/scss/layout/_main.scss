@@ -14,8 +14,8 @@
 }
 .main__section-two__list {
   display: grid;
-  grid-template-columns: 1;
-  grid-template-rows: 3;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 .main__section-two__item1 {
   grid-column: 1;
