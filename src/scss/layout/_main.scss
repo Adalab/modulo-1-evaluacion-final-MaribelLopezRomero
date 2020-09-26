@@ -163,6 +163,14 @@
   margin-left: 4.687%;
   margin-right: 79.37%;
   margin-bottom: 45px;
+  transition: color ease-in 0.5s, background-color ease-in 0.5s,
+    transform ease-in 0.5s;
+  &:hover {
+    color: white;
+    background-color: $color-button;
+    border: solid 2px white;
+    transform: scale(1.1);
+  }
   @media all and (min-width: 768px) {
     width: 91px;
     height: 45px;
@@ -310,6 +318,7 @@
   .main__section-two__item2,
   .main__section-two__item3 {
     margin-top: 0px;
+    justify-self: center;
   }
   .main__section-two__item1__title,
   .main__section-two__item2__title,
@@ -327,6 +336,7 @@
   .main__section-two__item2__title {
     margin-left: 0px;
     margin-right: 30px;
+    text-align: center;
   }
   .main__section-two__item3__title {
     margin-left: 0px;
@@ -350,6 +360,7 @@
   .main__section-two__item2__paragraph {
     margin-left: 0px;
     margin-right: 26.2px;
+    justify-self: center;
   }
   .main__section-two__item3__paragraph {
     margin-left: 0px;
@@ -373,6 +384,14 @@
   text-align: center;
   margin-top: 45px;
   margin-bottom: 60px;
+  transition: color ease-in 0.5s, background-color ease-in 0.5s,
+    transform ease-in 0.5s;
+  &:hover {
+    color: $color-button;
+    background-color: white;
+    border: solid 2px $color-button;
+    transform: scale(1.1);
+  }
   @media all and (min-width: 768px) {
     width: 27.34%;
     font-size: 20px;
