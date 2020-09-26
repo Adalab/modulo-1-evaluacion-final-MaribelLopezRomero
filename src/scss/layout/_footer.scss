@@ -23,6 +23,8 @@
 .footer__buttom {
   position: absolute;
   bottom: 443px;
+  left: 43.125%;
+  right: 42.8125%;
   background: white;
   width: 45px;
   height: 45px;
@@ -34,18 +36,19 @@
   padding-top: 10px;
   @media all and (min-width: 768px) {
     bottom: 217px;
-    right: 361px;
+    right: 47%;
+    left: 47.13%;
   }
   @media all and (min-width: 1280px) {
     bottom: 217px;
-    right: 617px;
+    right: 48.203%;
+    left: 48.28%;
   }
 }
 .footer__buttomimag {
   width: 20.6px;
   height: 24px;
 }
-
 .footer__menu__link {
   color: $color-primary;
   font-family: $font-family;
@@ -136,6 +139,7 @@
     margin-left: 39px;
     margin-right: 0px;
     margin-bottom: 0px;
+    padding-top: 8px;
   }
   @media all and (min-width: 1280px) {
     font-size: 14px;
@@ -145,6 +149,7 @@
     margin-right: 0px;
     margin-left: 370px;
     margin-bottom: 0px;
+    padding-top: 8px;
   }
 }
 .footer__small__components {
@@ -161,6 +166,7 @@
     margin-left: 39px;
     margin-right: 0px;
     margin-bottom: 142px;
+    padding-top: 8px;
   }
   @media all and (min-width: 1280px) {
     font-size: 14px;
@@ -170,5 +176,6 @@
     margin-right: 0px;
     margin-left: 370px;
     margin-bottom: 135px;
+    padding-top: 8px;
   }
 }
