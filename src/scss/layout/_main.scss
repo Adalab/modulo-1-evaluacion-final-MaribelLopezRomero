@@ -408,3 +408,25 @@
     margin-bottom: 60px;
   }
 }
+
+//estilos seccion nueva
+.main__section-new {
+  width: 100%;
+  background-color: $color-footer;
+  color: $color-primary;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+@media all and (min-width: 768px) {
+  .main__section-new {
+    display: inline-block;
+  }
+  .main__section_new_subtitle {
+    display: inline-block;
+    margin-left: 1.95%;
+    margin-right: 1.95%;
+  }
+}
